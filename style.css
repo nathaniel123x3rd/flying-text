@@ -1,0 +1,29 @@
+* {
+	margin:  0;
+	padding:  0;
+	box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+section {
+	position: relative;
+    display:  flex;
+    align-items: center;
+    justify-content:  center;
+    min-height: 100vh;
+    overflow: hidden;
+    background:  #130e23;
+}
+
+section .text {
+	position:  relative;
+	text-align: center;
+	color:  #00cefe;
+	margin:  40px;
+	max-width:  640px;
+}
+
+section .text span {
+	position: relative;
+	display: inline-block;
+}
